@@ -5,14 +5,14 @@
  * Recitation : 09
  *
  */
-public class ClosedAuctionException extends RuntimeException {
+public class FullDirectoryException extends RuntimeException {
 	
-	public ClosedAuctionException() {
+	public FullDirectoryException() {
 		
 		super();
 	}
 	
-	public ClosedAuctionException(String message) {
+	public FullDirectoryException(String message) {
 		
 		super(message);
 	}
